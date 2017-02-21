@@ -80,6 +80,13 @@ public class Enemy : MonoBehaviour {
 			// remove a life from the player
 			playerComponent.Lives = playerComponent.Lives - 1;
 
+<<<<<<< HEAD
+            // score
+            playerComponent.Score = playerComponent.Score - 10;
+
+
+=======
+>>>>>>> 2c279cabf27e28c6e8e76c91145b98e62eef8c40
 			// reset the player
 			playerComponent.Reset();
 

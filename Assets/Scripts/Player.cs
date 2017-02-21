@@ -11,7 +11,11 @@ public class Player : MonoBehaviour {
 	private Vector3 moveDirection = Vector3.zero;
 
 	public int Lives = 3; // number of lives the player hs
+<<<<<<< HEAD
+    public long Score = 0; // score
+=======
 
+>>>>>>> 2c279cabf27e28c6e8e76c91145b98e62eef8c40
 
 	Vector3 start_position; // start position of the player
 
